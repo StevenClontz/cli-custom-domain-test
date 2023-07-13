@@ -3,7 +3,9 @@
 !.gitignore
 
 # don't track unpublished builds
-output
+output/*/*
+# CNAME is okay though
+!output/*/CNAME
 
 # don't track assets generated from source
 generated-assets
